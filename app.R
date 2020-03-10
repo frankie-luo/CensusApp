@@ -49,5 +49,3 @@ server <- function(input, output) {
     percent_map(var = data, color = color, legend.title = legend, max = input$range[2], min = input$range[1])
   })
 }
-
-shinyApp(ui, server)
